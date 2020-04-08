@@ -1,0 +1,7 @@
+.container {
+  position: relative;
+  @include gridBase(0, 15px);
+  grid-auto-columns: auto;
+  grid-auto-rows: auto 1fr auto;
+  min-height: 100vh;
+}

@@ -1,0 +1,32 @@
+@import '../fonts/Roboto';
+
+:global {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+
+    &.theme-default {
+      --main-color: #6B404E;
+      --decor-color: #DDC8C4;
+
+      --light-color: #EFF9F0;
+      --dark-color: #13070C;
+
+      --border-color: #d6d6d6;
+
+      --bg-color: #fff;
+
+      --text-color: #000;
+
+      --standard-space-middle: 10px;
+    }
+  }
+}

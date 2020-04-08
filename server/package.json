@@ -1,0 +1,25 @@
+{
+  "name": "simple-blog-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.3.4",
+    "@types/core-js": "^2.5.3",
+    "core-js": "^3.6.4",
+    "tslint": "5.10.0",
+    "tslint-config-airbnb": "5.9.2",
+    "typescript": "^2.9.2",
+    "typings": "^2.1.1"
+  },
+  "dependencies": {
+    "@types/core-js": "^2.5.3",
+    "core-js": "^3.6.4",
+    "mongoose": "^5.9.7"
+  }
+}

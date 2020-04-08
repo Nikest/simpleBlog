@@ -1,0 +1,6 @@
+server/node_modules/
+server/src/Route/**/*.js
+server/src/Server/**/*.js
+server/src/Services/**/*.js
+
+frontend/node_modules/

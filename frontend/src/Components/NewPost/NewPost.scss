@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
+
+  input, textarea {
+    width: 100%;
+    border: none;
+    font-weight: inherit;
+    font-size: inherit;
+    padding: 5px;
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.descr {
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.post, .image {
+  font-weight: 400;
+  font-size: 14px;
+
+  textarea {
+    min-height: 100px;
+  }
+}
+
+.button {
+  background: var(--decor-color);
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--main-color);
+  transition: 250ms;
+  border: 1px solid var(--decor-color);
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--main-color);
+    color: var(--decor-color);
+  }
+}

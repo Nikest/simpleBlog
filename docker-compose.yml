@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  blogserver:
+    build: ./server
+    volumes:
+    - "./src/:/src/"
+    ports:
+    - "3010:3010"
+    depends_on:
+      - "mongo"
+  mongo:
+    image: "mongo"
+    ports:
+    - "27017:27017"

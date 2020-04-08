@@ -1,0 +1,36 @@
+.container {
+
+}
+
+.section {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+.description {
+  font-weight: 100;
+  font-size: 16px;
+  text-align: left;
+}
+
+.post {
+  font-weight: 400;
+  font-size: 14px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 10px;
+}
+
+.image {
+  height: 200px;
+  border-radius: 15px;
+  background-size: cover;
+  background-color: var(--decor-color);
+  background-position: center;
+}
