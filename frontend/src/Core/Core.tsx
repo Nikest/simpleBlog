@@ -10,7 +10,6 @@ export class Core extends React.Component {
       <section className={c('container')}>
         <Header/>
         <Main/>
-        <Footer/>
       </section>
     )
   }

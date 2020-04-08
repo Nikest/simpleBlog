@@ -1,6 +1,6 @@
 import * as mongoose from 'mongoose';
 
-mongoose.connect('mongodb://localhost:27017/blog', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb://mongo/blog', {useNewUrlParser: true, useUnifiedTopology: true})
     .catch(error => console.log(error));
 
 const db = mongoose.connection;
