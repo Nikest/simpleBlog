@@ -20,6 +20,6 @@
   "dependencies": {
     "@types/core-js": "^2.5.3",
     "core-js": "^3.6.4",
-    "mongoose": "^5.9.7"
+    "mongoose": "^5.13.15"
   }
 }
